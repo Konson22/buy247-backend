@@ -1,0 +1,41 @@
+{
+  "name": "node-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/storage": "^6.0.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cheerio": "^1.0.0-rc.10",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "csv-parser": "^3.0.0",
+    "dotenv": "^16.0.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "express-graphql": "^0.12.0",
+    "express-validator": "^6.14.2",
+    "graphql": "^15.8.0",
+    "graphsql": "0.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.5.0",
+    "mongoose": "^5.10.11",
+    "multer": "^1.4.2",
+    "mysql": "^2.18.1",
+    "nedb": "^1.8.0",
+    "nodemailer": "^6.7.5",
+    "nodemon": "^2.0.6",
+    "nvm": "0.0.4",
+    "puppeteer": "^13.5.1",
+    "socket.io": "^4.3.1"
+  }
+}
